@@ -38,7 +38,7 @@ img {
 }
 
 .container {
-  width: 1370px;
+  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -55,10 +55,7 @@ img {
   font-family: var(--logo-font);
   text-decoration: none;
   font-size: 26px;
-  padding: 0 15px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  margin-right: 80px;
+  margin: 24px 80px 25px 15px;
 }
 .web-logo {
   color: var(--accent-color);
@@ -84,6 +81,9 @@ img {
   letter-spacing: 0.02em;
   margin-right: 50px;
 }
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
 
 .header-item:hover,
 .header-item:focus,
@@ -99,27 +99,24 @@ img {
 }
 .nav-list {
   display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 .nav-list .container,
 .header-contacts .container {
   display: flex;
   align-items: center;
-  margin-right: 50px;
-}
-.nav-list .link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .contacts-item {
   color: var(--primary-text-color);
 
+  display: flex;
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
   margin-left: 50px;
 }
-
+.nav-list .link,
 .header-contacts .link {
   display: block;
   padding-top: 32px;
