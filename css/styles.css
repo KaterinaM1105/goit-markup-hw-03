@@ -58,6 +58,7 @@ img {
   padding: 0 15px;
   padding-top: 24px;
   padding-bottom: 25px;
+  margin-right: 80px;
 }
 .web-logo {
   color: var(--accent-color);
@@ -77,6 +78,7 @@ img {
 .header-item {
   color: var(--title-text-color);
 
+  display: flex;
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
@@ -95,22 +97,33 @@ img {
 .header-items .link.current {
   color: var(--accent-color);
 }
+.nav-list {
+  display: flex;
+}
 .nav-list .container,
-.header-contacts {
+.header-contacts .container {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-right: 50px;
 }
-
+.nav-list .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .contacts-item {
   color: var(--primary-text-color);
 
   font-weight: 500;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.header-contacts .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ====== END HEADER NAVIGATION LIST =======*/
