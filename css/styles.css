@@ -1,0 +1,254 @@
+:root {
+  /* Fonts */
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  /* Colors */
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --section-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --accent-color: #2196f3;
+  --active-links-color: #3c20f3;
+  --contact-details-color: rgba(255, 255, 255, 0.6);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--white-color);
+  font-family: var(--main-font);
+  font-size: 14px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+}
+img {
+  display: block;
+}
+
+.container {
+  width: 1370px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+/* ======== LOGO ======== */
+
+.logo {
+  display: flex;
+  font-family: var(--logo-font);
+  text-decoration: none;
+  font-size: 26px;
+  padding: 0 15px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.web-logo {
+  color: var(--accent-color);
+}
+.studio-logo {
+  color: var(--black-color);
+}
+.footer-logo {
+  color: var(--white-color);
+}
+.background {
+  background-color: var(--section-background-color);
+}
+/* ======== END LOGO ======== */
+/* ====== HEADER NAVIGATION LIST =======*/
+
+.header-item {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+}
+
+.header-item:hover,
+.header-item:focus,
+.contacts-item:hover,
+.contacts-item:focus {
+  color: var(--accent-color);
+}
+.header-item:active {
+  color: var(--active-links-color);
+}
+.header-items .link.current {
+  color: var(--accent-color);
+}
+.nav-list .container,
+.header-contacts {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-right: 50px;
+}
+
+.contacts-item {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  margin-right: 50px;
+}
+
+/* ====== END HEADER NAVIGATION LIST =======*/
+/* ======== HERO ======== */
+.hero-title {
+  color: var(--white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+/* ======== END HERO ======== */
+/* ======== BUTTON ======== */
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+/* ======== END BUTTON ======== */
+/* ======= OUR ADVANTAGES ======== */
+
+.advantages-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--primary-text-color);
+
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+/* ======= END OUR ADVANTAGES ======== */
+/* ======= SERVICES ======= */
+.services-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======= END SERVICES ======= */
+/* ======== OUR TEAM ========*/
+.team {
+  background-color: var(--team-background-color);
+}
+.team-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-member {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-position {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* ======== END OUR TEAM ========*/
+
+/* ======== PORTFOLIO ======== */
+.button-title {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-title:hover,
+.button-title:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.portfolio-name {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-item {
+  color: var(--primary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+}
+/* ======== END PORTFOLIO ======== */
+/* ======= CONTACTS ========= */
+
+.address {
+  color: var(--white-color);
+
+  font-weight: 500;
+  line-height: 1.714;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+.contact-details {
+  color: var(--contact-details-color);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
+.contact-details:hover,
+.contact-details:focus {
+  color: var(--accent-color);
+}
+/* ======= END CONTACTS ========= */
