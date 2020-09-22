@@ -71,11 +71,11 @@ img {
 .background {
   background-color: var(--section-background-color);
 }
+
 /* ======== END LOGO ======== */
 /* ====== HEADER NAVIGATION LIST =======*/
 .header .container {
   display: flex;
-  align-items: center;
 }
 .header .address {
   margin-left: auto;
@@ -262,8 +262,6 @@ img {
   border-left: 1px solid var(--border-color);
   border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   overflow: hidden;
 }
@@ -291,9 +289,12 @@ img {
 /* ======== END OUR TEAM ========*/
 
 /* ======== PORTFOLIO ======== */
-
 .button-items {
   display: flex;
+  justify-content: center;
+
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .button-title {
   color: var(--title-text-color);
@@ -303,11 +304,22 @@ img {
   line-height: 1.625;
   text-align: center;
   letter-spacing: 0.03em;
+
+  padding: 6px 22px;
 }
+
 .button-title:hover,
 .button-title:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
+}
+.button-element {
+  margin-right: 8px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.button-element:last-child {
+  margin: 0;
 }
 .portfolio {
   display: flex;
@@ -356,12 +368,15 @@ img {
 /* ======= CONTACTS ========= */
 
 .address {
-  color: var(--white-color);
-
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
   font-weight: 500;
   line-height: 1.714;
   text-align: center;
   letter-spacing: 0.03em;
+
+  color: var(--white-color);
 }
 .address:hover,
 .address:focus {
