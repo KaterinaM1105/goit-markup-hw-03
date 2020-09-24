@@ -76,6 +76,7 @@ img {
   display: flex;
   align-items: center;
 }
+
 .header-item {
   color: var(--title-text-color);
 
