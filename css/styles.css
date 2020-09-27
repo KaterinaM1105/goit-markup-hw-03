@@ -422,6 +422,9 @@ img {
 .address:focus {
   color: var(--accent-color);
 }
+.footer-address {
+  margin-bottom: 9px;
+}
 .contact-details {
   color: var(--contact-details-color);
 
