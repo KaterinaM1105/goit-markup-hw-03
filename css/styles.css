@@ -250,13 +250,11 @@ img {
 /* ======== OUR TEAM ========*/
 .team {
   background-color: var(--team-background-color);
-  padding-bottom: 94px;
 }
 .team-list {
   display: flex;
   align-items: center;
 }
-
 .team-title {
   color: var(--title-text-color);
 
@@ -311,7 +309,6 @@ img {
   text-align: center;
 }
 .team-element {
-  padding: 30px;
   padding-bottom: 30px;
 }
 /* ======== END OUR TEAM ========*/
